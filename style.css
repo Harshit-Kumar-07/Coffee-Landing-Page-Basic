@@ -1,0 +1,257 @@
+@import url('https://googleapis.com');
+
+*{
+    margin  : 0%;
+    padding : 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    /* https://grabient.com/_gGUgE9gDIgFLgC4gB9gHegMZgOTgMhgK3gKI?angle=225 */
+
+/* background: linear-gradient(225deg, #824120 0.000%, #a5673d 16.667%, #b97e51 33.333%, #b9784c 50.000%, #a55931 66.667%, #813418 83.333%, #582216 100.000%); */
+
+background-image: url(images/coffee_bg.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+#logo{
+    font-size : 100px;
+    margin-left : 80px;
+    margin-top : 30px;
+    margin-right : 600px;
+    color : beige;
+}
+
+
+nav {
+    position : fixed;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+nav a{
+    margin-left : 40px;
+    margin-right : 40px;
+    text-decoration: none;
+    color : white;
+}
+nav a:hover{
+    color : rgb(219, 159, 20);
+}
+
+.q1{
+    margin-top : 200px;
+}
+p{
+    font-family: science gothic;
+    font-size: 70px;
+    font-weight: bolder;    
+    margin-left: 300px;
+    color : white;
+}
+
+#btn{
+    margin-left : 300px;
+    height: 60px;
+    width : 140px;
+    background-color: rgb(191, 118, 28);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;   
+    cursor : pointer; 
+}
+#btn:hover{
+    background-color: rgba(220, 157, 11, 0.914);
+    animation: pulseGlow 2s infinite; 
+}
+/* Intensify effect on hover */
+.glow-btn:hover {
+  color: #111;
+  background: #e18a10;
+  box-shadow: 0 0 10px brown, 
+              0 0 30px brown,
+              0 0 60px brown;
+}
+/* Keyframes stacking multiple blur layers to prevent lag and build realism */
+@keyframes pulseGlow {
+  0% {
+    box-shadow: 0 0 5px rgba(254, 135, 0, 0.4), 
+                0 0 10px rgba(254, 144, 0, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(254, 182, 0, 0.8), 
+                0 0 30px rgba(254, 195, 0, 0.6);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(254, 165, 0, 0.4), 
+                0 0 10px rgba(254, 186, 0, 0.2);
+  }
+}
+#btn a{
+    font-size : 20px;    
+}
+
+
+
+
+
+
+#first_area{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    gap : 200px;
+    justify-content: flex-start;
+}
+#img1{
+    height : 300px;
+    width : 500px;
+    margin-top : 50px;
+    margin-left : 100px;
+    border-radius : 40px;
+}
+#text1{
+    margin-top: 50px;
+    height : 300px;
+    width : 500px;
+}
+#text1 h1{
+    font-size: 70px;
+}
+#text1 p{
+    font-size: 20px;
+    margin-right : 200px;
+    line-height:1.4;
+    max-width:450px;
+    margin:0;
+}
+#lm{
+    height: 60px;
+    width : 140px;
+    background-color: rgb(191, 118, 28);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;   
+    cursor : pointer; 
+}
+#lm:hover{
+    background-color: rgba(220, 157, 11, 0.914);
+    animation: pulseGlow 2s infinite; 
+}
+/* Intensify effect on hover */
+.glow-lm:hover {
+  color: #111;
+  background: #e18a10;
+  box-shadow: 0 0 10px brown, 
+              0 0 30px brown,
+              0 0 60px brown;
+}
+/* Keyframes stacking multiple blur layers to prevent lag and build realism */
+@keyframes pulseGlow {
+  0% {
+    box-shadow: 0 0 5px rgba(254, 135, 0, 0.4), 
+                0 0 10px rgba(254, 144, 0, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(254, 182, 0, 0.8), 
+                0 0 30px rgba(254, 195, 0, 0.6);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(254, 165, 0, 0.4), 
+                0 0 10px rgba(254, 186, 0, 0.2);
+  }
+}
+#lm a{
+    font-size : 20px;    
+}
+
+
+
+
+
+
+
+
+
+#second_area{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    gap : 5px;
+    justify-content: flex-start;
+}
+#img2{
+    height : 300px;
+    width : 500px;
+    margin-top : 50px;
+    margin-left : 0px;
+    border-radius : 40px;
+}
+#text2{
+    margin-top: 50px;
+    margin-left : 300px;
+    height : 300px;
+    width : 500px;
+}
+#text2 h1{
+    font-size: 70px;
+}
+#text2 p{
+    font-size: 20px;
+    margin-right : 200px;
+    line-height:1.4;
+    max-width:450px;
+    margin:0;
+}
+#lm{
+    height: 60px;
+    width : 140px;
+    background-color: rgb(191, 118, 28);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;   
+    cursor : pointer; 
+}
+#lm:hover{
+    background-color: rgba(220, 157, 11, 0.914);
+    animation: pulseGlow 2s infinite; 
+}
+/* Intensify effect on hover */
+.glow-lm:hover {
+  color: #111;
+  background: #e18a10;
+  box-shadow: 0 0 10px brown, 
+              0 0 30px brown,
+              0 0 60px brown;
+}
+/* Keyframes stacking multiple blur layers to prevent lag and build realism */
+@keyframes pulseGlow {
+  0% {
+    box-shadow: 0 0 5px rgba(254, 135, 0, 0.4), 
+                0 0 10px rgba(254, 144, 0, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(254, 182, 0, 0.8), 
+                0 0 30px rgba(254, 195, 0, 0.6);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(254, 165, 0, 0.4), 
+                0 0 10px rgba(254, 186, 0, 0.2);
+  }
+}
+#lm a{
+    font-size : 20px;    
+}
+
+
+
