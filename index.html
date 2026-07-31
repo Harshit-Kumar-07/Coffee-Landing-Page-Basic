@@ -3,141 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora Coffee</title>
+    <meta name="description" content="Hora Coffee — cozy, quality coffee near you. Explore our mocha, latte, and chai menu.">
+
     <link rel="stylesheet" href="style.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <title>Coffee</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+          integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
     <nav>
-        <i id="logo" class="fa-solid fa-mug-hot"></i>
-        <h1 ><a href="">Home</a></h1>
-        <h1  ><a href="">Menu</a></h1>
-        <h1  ><a href="">Contact</a></h1>
-        <h1  ><a href="">About</a></h1>
-
+        <i id="logo" class="fa-solid fa-mug-hot" aria-hidden="true"></i>
+        <ul class="nav-links">
+            <li><a href="#top">Home</a></li>
+            <li><a href="#products">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
     </nav>
 
-    
-        <br>
+    <header id="top" class="hero">
+        <p class="eyebrow">START YOUR DAY</p>
+        <h2 class="hero-title">WITH OUR COFFEE</h2>
+        <a href="#products" id="btn">Shop Now</a>
+    </header>
 
-        
-        <p class="q1">START YOUR DAY</p> 
-         <br>
-        <p >WITH OUR COFFEE</p> 
-        <br>
-        <div id="btn">
-            <a>Shop Now</a>
+    <section id="first_area" class="feature">
+        <img id="img1" src="images/coffee_top.jpg" alt="-">
+        <div id="text1" class="feature-text">
+            <h2>Our Story</h2>
+            <p>We're a passionate team of coffee enthusiasts dedicated to bringing you the finest quality coffee nearby.</p>
+            <a href="#about" class="lm">Learn More</a>
         </div>
+    </section>
 
-        <br>
-
-        <div id="first_area">
-            <img id="img1" src="images/coffee_top.jpg" alt="images/coffee_top.jpg">
-            <div id="text1">
-                <h1>Our Story</h1>
-                <br>
-                <p>Loreicia nihil iste placeat, debitis dolorem praesentium repellendus? Quis quam laboriosam saepe soluta.</p>
-                <br>
-                <div id="lm">
-                    <a >Learn More</a>
-                </div>
-            </div>
+    <section id="second_area" class="feature feature-reverse">
+        <div id="text2" class="feature-text">
+            <h2>Perfect Place to Enjoy</h2>
+            <p>We provide a cozy and inviting atmosphere where you can relax and savor the finest coffee.</p>
+            <a href="#about" class="lm">Learn More</a>
         </div>
+        <img id="img2" src="images/top_img_2.jpg" alt="-">
+    </section>
 
-        <br>
+    <h2 id="products" class="section-title">Our Products</h2>
 
-        <div id="second_area">
-            
-            <div id="text2">
-                <h1>Perfect place to enjoy.</h1>
-                <br>
-                <p>Loreicia nihil iste placeat pellluta.</p>
-                <br>
-                <div id="lm">
-                    <a >Learn More</a>
-                </div>
-            </div>
-            <img id="img2" src="images/top_img_2.jpg" alt="images/top_img_2.jpg">
+    <div class="pboxes">
+        <div class="box" id="b1">
+            <h3>Mocha</h3>
+            <ul>
+                <li>Mocha Mud</li>
+                <li>Mocha Avantel</li>
+                <li>Mocha Caramel</li>
+            </ul>
         </div>
-
-        <br>
-        <br>
-
-        <h1 id="t3">Our Products</h1>
-        
-        <br>
-        <br>
-
-        <div class="pboxes">
-            <div class="pboxes" id="b1">
-                <h1>Mocha</h1>
-                <ul>
-                    <li>Mocha Mud</li>
-                    <li>Mocha Avantel</li>
-                    <li>Mocha Caramel</li>
-                </ul>
-            </div>
-            <div class="pboxes" id="b2">
-                <h1>Latte</h1>
-                <ul>
-                    <li>Latte fucino</li>
-                    <li>Latte caramel</li>
-                    <li>Latte bangerisla</li>
-                </ul>
-            </div>
-            <div class="pboxes" id="b3">
-                <h1>Chai</h1>
-                <ul>
-                    <li>Chai Latte</li>
-                    <li>Kulhad Chai</li>
-                    <li>Malai Chai</li>
-                </ul>
-            </div>
+        <div class="box" id="b2">
+            <h3>Latte</h3>
+            <ul>
+                <li>Latte Fucino</li>
+                <li>Latte Caramel</li>
+                <li>Latte Bangerisla</li>
+            </ul>
         </div>
-
-        <br>
-        <br>
-
-        <div id="line"></div>
-
-        <br>
-        <br>
-
-        <div class="lastboxes">
-            <div class="lastboxes" id="l1">
-                <h1>About Us</h1>
-                <p> Lorem ipsum dolor sit amet, conscing elit. Blanditiis porro esse culpa dicta cum officiis, quam, quos laborum dignissimos eos eligendi ad fugiat in expedita accusamus quo. Consequuntur, ut eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui corrupti doloribus minima quidem, accusantium consequatur quia quae laudantium fugiat! Nemo eius incidunt vitae dignissimos! Hic fugit consectetur dolores commodi nam</p>
-            </div>
-            <div class="lastboxes" id="l2">
-                <h1>Contact Us</h1>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui corrupti doloribus minima quidem, accusantium consequatur quia quae laudantium fugiat! Nemo eius incidunt vitae dignissimos! Hic fugit consectetur dolores commodi nam.</p>
-            </div>
-            <div class="lastboxes" id="l3">
-                <h1>Opening Hours</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nemo quia commodi, sunt deleniti excepturi odio dolores at quae aliquam soluta? Tenetur labore enim illum explicabo, ipsa nihil similique non.</p>
-            </div>
+        <div class="box" id="b3">
+            <h3>Chai</h3>
+            <ul>
+                <li>Chai Latte</li>
+                <li>Kulhad Chai</li>
+                <li>Malai Chai</li>
+            </ul>
         </div>
+    </div>
 
-        <br>
-        <br>
+    <div class="line"></div>
 
-        <div id="line"></div>
-
-        <br>
-        <br>
-
-        <div id="cr">
-            <p id="lt1">Copyright @ 2026 Hora WebDev | Provided by Hora WebDev</p>            
+    <div class="info-boxes">
+        <div class="box" id="about">
+            <h3>About Us</h3>
+            <p class="body-copy">We started Hora Coffee to bring a warm, unhurried corner to a fast-moving world. Every cup is brewed with care, sourced responsibly, and served by people who genuinely love what they do. Whether you're stopping in for a quick espresso or settling in for the afternoon, we want it to feel like your favorite chair.</p>
         </div>
+        <div class="box" id="contact">
+            <h3>Contact Us</h3>
+            <p class="body-copy">Ping us on any of the following:</p>
+            <a href="mailto:hello@horacoffee.com" class="contact-link"><i class="fa-solid fa-envelope"></i> Email</a>
+            <a href="tel:+1234567890" class="contact-link"><i class="fa-solid fa-phone"></i> Phone</a>
+        </div>
+        <div class="box" id="l3">
+            <h3>Opening Hours</h3>
+            <p class="body-copy">Monday - Friday: 8:00 AM – 10:00 PM<br>Saturday – Sunday: 9:00 AM – 11:00 PM</p>
+        </div>
+    </div>
 
+    <div class="line"></div>
 
+    <footer id="cr">
+        <p id="lt1">Copyright &copy; 2026 Hora WebDev | Provided by Hora WebDev</p>
+    </footer>
 
+    <div id="coffee-cursor" aria-hidden="true">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="50" cy="50" rx="34" ry="46" transform="rotate(20 50 50)" fill="#4b2e13" stroke="#daa520" stroke-width="2"/>
+            <path d="M 50 12 C 35 30, 35 70, 50 88 C 45 65, 45 35, 50 12 Z" transform="rotate(20 50 50)" fill="#2a1608"/>
+        </svg>
+    </div>
 
-        
-        
-    
+    <script>
+        (function () {
+            var cursor = document.getElementById('coffee-cursor');
+            var isFinePointer = window.matchMedia('(pointer: fine)').matches;
+            var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+            if (!isFinePointer || reduceMotion) {
+                cursor.style.display = 'none';
+                return;
+            }
+
+            document.body.classList.add('coffee-cursor-active');
+
+            window.addEventListener('mousemove', function (e) {
+                cursor.style.left = e.clientX + 'px';
+                cursor.style.top = e.clientY + 'px';
+                cursor.style.opacity = '1';
+            });
+
+            document.addEventListener('mouseleave', function () {
+                cursor.style.opacity = '0';
+            });
+
+            document.addEventListener('mousedown', function () {
+                cursor.classList.add('is-clicking');
+            });
+            document.addEventListener('mouseup', function () {
+                cursor.classList.remove('is-clicking');
+            });
+
+            var hoverTargets = document.querySelectorAll('a, #btn, .lm, .box');
+            hoverTargets.forEach(function (el) {
+                el.addEventListener('mouseenter', function () {
+                    cursor.classList.add('is-hovering');
+                });
+                el.addEventListener('mouseleave', function () {
+                    cursor.classList.remove('is-hovering');
+                });
+            });
+        })();
+    </script>
+
 </body>
 </html>
